@@ -1,0 +1,30 @@
+[
+  {
+    "Path": "D:\\WorkStation\\Codex\\ImageAbstraction\\src\\crgf.cpp",
+    "Hash": "9686F34FA4CB275A275B28177FE1A569157FD9A40F2023F8FA560F96C18115CE"
+  },
+  {
+    "Path": "D:\\WorkStation\\Codex\\ImageAbstraction\\src\\image_abstraction.cpp",
+    "Hash": "8F9BAC99F7345F0DBB653629FA0AEECF084927EFABB7723D3412048F4F60D71D"
+  },
+  {
+    "Path": "D:\\WorkStation\\Codex\\ImageAbstraction\\src\\main.cpp",
+    "Hash": "7E63A1BB69EB43EEF53A4D1B911FA1A328EC3F36988D1AF0A81F1DA0BB452F17"
+  },
+  {
+    "Path": "D:\\WorkStation\\Codex\\ImageAbstraction\\src\\slic_background.cpp",
+    "Hash": "8F682F86458DFC3D811BFA7DF887CA1838AA0C0F1FE940D38D855A8BE075B12E"
+  },
+  {
+    "Path": "D:\\WorkStation\\Codex\\ImageAbstraction\\include\\image_abstraction.h",
+    "Hash": "F535762E6E618308FB7E7B12B7C0E3A54B51A106AA007A688804809FFE06DAE8"
+  },
+  {
+    "Path": "D:\\WorkStation\\Codex\\ImageAbstraction\\include\\slic_background.h",
+    "Hash": "2E961B2CFD0939491DB592D7EEE267A9373498DC379F9E20E85D648A12221355"
+  },
+  {
+    "Path": "D:\\WorkStation\\Codex\\ImageAbstraction\\include\\texture_abstraction.h",
+    "Hash": "399593C72CCEBCAF41797989B970CB049A17F6576853626E554B668997DFB4ED"
+  }
+]

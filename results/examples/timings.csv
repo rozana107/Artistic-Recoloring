@@ -1,0 +1,7 @@
+"Image","Method","Width","Height","Regions","Edges","SegmentationMs","RecoloringMs","WallAllRepeatsMs","InputSha256","Directory"
+"bicycle.jpg","abstraction","1024","682","27795","66847","38464.86","67.056","39130.399","DB05832BDEC24DB0466D75B5EEDF3BDCF88A9759ED28376BEE4453D42997AD27","results\examples\bicycle_jpg"
+"lanterns.jpg","abstraction","481","321","1425","3334","7928.717","5.217","7992.374","F2C081F7BD42807A26B46DD2FF44FBC57486D23463FA46AC4D61DF03FD5D52F9","results\examples\lanterns_jpg"
+"lizard.jpg","abstraction","481","321","4138","9678","8356.795","9.797","8458.652","DBE97F2BE2D378FE2CF5037382C18E67946C2A6B9B3FE6F79738E468D9AFF147","results\examples\lizard_jpg"
+"rust.jpg","abstraction","1024","768","14625","34037","40648.424","42.412","41081.329","9DD43DE52AEE06D41CAE2D2F374802E21078E4271329CD9465244AB2659B875B","results\examples\rust_jpg"
+"starfish.jpg","abstraction","481","321","2763","6225","8212.634","7.543","8293.945","EAF9D44CFD50DC1758638AF61BF8DD3320F359F3E6605A37E51F15BF3A783E09","results\examples\starfish_jpg"
+"venice.jpg","abstraction","1024","681","17390","41932","36764.401","44.823","37223.492","B58CE7ABF2B977D4847A8B1EAB297E1103ADE718ACAFA79716728EBEFE8A0F77","results\examples\venice_jpg"

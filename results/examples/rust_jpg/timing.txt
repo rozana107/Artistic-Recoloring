@@ -1,0 +1,43 @@
+Computing CRGF detail filter...
+Selecting and ordering seeds...
+5252 candidate seeds; 5169 selected. Growing regions...
+Building SLIC background and rendering...
+OpenCV 4.12.0, threads: 1
+Image: 1024 x 768
+Segmentation method: abstraction
+Region colors: abstraction/region image
+Regions: 14625, edges: 34037, palette colors: 7
+Segmentation: 40648.424 ms (once; 0 if labels supplied)
+Recoloring median (7 runs): 42.412 ms
+  Label normalization: 8.300 ms
+  Region graph:     22.817 ms
+  Histogram:        2.815 ms
+  Widest-path tree: 4.243 ms
+  Color assignment: 0.531 ms
+  Rendering:        2.519 ms
+Lightness fallbacks: 890
+Wall time (all repeats + load/save): 41081.329 ms
+Saved: results\examples\rust_jpg/sunset.png
+Abstraction parameters: mask=160, gamma=1.000, threshold=3.000, seed-min-size=11, hops=10, growth=100.000, bins=64, background=580
+  CRGF: 14045.158 ms
+  Seeds: 25023.429 ms
+  Growth: 1231.097 ms
+  Abstraction rendering: 348.097 ms
+
+Ocean palette, using saved labels and abstraction colors:
+OpenCV 4.12.0, threads: 1
+Image: 1024 x 768
+Segmentation method: supplied labels
+Region colors: abstraction/region image
+Regions: 14625, edges: 34037, palette colors: 7
+Segmentation: 0.001 ms (once; 0 if labels supplied)
+Recoloring median (1 runs): 42.882 ms
+  Label normalization: 8.174 ms
+  Region graph:     23.767 ms
+  Histogram:        2.802 ms
+  Widest-path tree: 4.455 ms
+  Color assignment: 0.541 ms
+  Rendering:        2.150 ms
+Lightness fallbacks: 1205
+Wall time (all repeats + load/save): 235.941 ms
+Saved: results\examples\rust_jpg/ocean.png

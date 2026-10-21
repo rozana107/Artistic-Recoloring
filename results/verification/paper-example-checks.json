@@ -1,0 +1,32 @@
+[
+  {
+    "image": "bicycle.jpg",
+    "passed": true,
+    "regions": 27795
+  },
+  {
+    "image": "lanterns.jpg",
+    "passed": true,
+    "regions": 1425
+  },
+  {
+    "image": "lizard.jpg",
+    "passed": true,
+    "regions": 4138
+  },
+  {
+    "image": "rust.jpg",
+    "passed": true,
+    "regions": 14625
+  },
+  {
+    "image": "starfish.jpg",
+    "passed": true,
+    "regions": 2763
+  },
+  {
+    "image": "venice.jpg",
+    "passed": true,
+    "regions": 17390
+  }
+]

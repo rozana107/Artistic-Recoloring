@@ -1,0 +1,45 @@
+Fresh abstraction measurement (first pass; original-mean recoloring values omitted):
+Image: 481 x 321
+Regions: 1451, edges: 3269, palette colors: 7
+Segmentation: 8561.340 ms (once; 0 if labels supplied)
+Abstraction parameters: mask=160, gamma=1.000, threshold=3.000, seed-min-size=11, hops=10, growth=100.000, bins=64, background=580
+  CRGF: 2713.643 ms
+  Seeds: 5562.359 ms
+  Growth: 230.568 ms
+  Abstraction rendering: 54.404 ms
+
+Final sunset palette, using saved labels and abstraction colors (7 runs):
+OpenCV 4.12.0, threads: 1
+Image: 481 x 321
+Segmentation method: supplied labels
+Region colors: abstraction/region image
+Regions: 1451, edges: 3269, palette colors: 7
+Segmentation: 0.000 ms (once; 0 if labels supplied)
+Recoloring median (7 runs): 5.743 ms
+  Label normalization: 1.449 ms
+  Region graph:     2.817 ms
+  Histogram:        0.199 ms
+  Widest-path tree: 0.279 ms
+  Color assignment: 0.049 ms
+  Rendering:        0.445 ms
+Lightness fallbacks: 171
+Wall time (all repeats + load/save): 89.872 ms
+Saved: results\images\124084_jpg\sunset.png
+
+Ocean palette, using saved labels and abstraction colors:
+OpenCV 4.12.0, threads: 1
+Image: 481 x 321
+Segmentation method: supplied labels
+Region colors: abstraction/region image
+Regions: 1451, edges: 3269, palette colors: 7
+Segmentation: 0.000 ms (once; 0 if labels supplied)
+Recoloring median (1 runs): 9.944 ms
+  Label normalization: 3.263 ms
+  Region graph:     5.022 ms
+  Histogram:        0.316 ms
+  Widest-path tree: 0.440 ms
+  Color assignment: 0.078 ms
+  Rendering:        0.648 ms
+Lightness fallbacks: 139
+Wall time (all repeats + load/save): 82.591 ms
+Saved: results\images\124084_jpg\ocean.png

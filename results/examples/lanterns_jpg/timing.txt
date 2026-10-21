@@ -1,0 +1,43 @@
+Computing CRGF detail filter...
+Selecting and ordering seeds...
+674 candidate seeds; 655 selected. Growing regions...
+Building SLIC background and rendering...
+OpenCV 4.12.0, threads: 1
+Image: 481 x 321
+Segmentation method: abstraction
+Region colors: abstraction/region image
+Regions: 1425, edges: 3334, palette colors: 7
+Segmentation: 7928.717 ms (once; 0 if labels supplied)
+Recoloring median (7 runs): 5.217 ms
+  Label normalization: 1.451 ms
+  Region graph:     2.650 ms
+  Histogram:        0.181 ms
+  Widest-path tree: 0.261 ms
+  Color assignment: 0.046 ms
+  Rendering:        0.413 ms
+Lightness fallbacks: 72
+Wall time (all repeats + load/save): 7992.374 ms
+Saved: results\examples\lanterns_jpg/sunset.png
+Abstraction parameters: mask=160, gamma=1.000, threshold=3.000, seed-min-size=11, hops=10, growth=100.000, bins=64, background=580
+  CRGF: 2512.465 ms
+  Seeds: 5161.109 ms
+  Growth: 202.097 ms
+  Abstraction rendering: 52.771 ms
+
+Ocean palette, using saved labels and abstraction colors:
+OpenCV 4.12.0, threads: 1
+Image: 481 x 321
+Segmentation method: supplied labels
+Region colors: abstraction/region image
+Regions: 1425, edges: 3334, palette colors: 7
+Segmentation: 0.000 ms (once; 0 if labels supplied)
+Recoloring median (1 runs): 9.941 ms
+  Label normalization: 2.555 ms
+  Region graph:     5.378 ms
+  Histogram:        0.372 ms
+  Widest-path tree: 0.525 ms
+  Color assignment: 0.090 ms
+  Rendering:        0.838 ms
+Lightness fallbacks: 81
+Wall time (all repeats + load/save): 42.722 ms
+Saved: results\examples\lanterns_jpg/ocean.png

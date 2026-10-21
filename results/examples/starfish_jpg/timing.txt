@@ -1,0 +1,43 @@
+Computing CRGF detail filter...
+Selecting and ordering seeds...
+1174 candidate seeds; 1148 selected. Growing regions...
+Building SLIC background and rendering...
+OpenCV 4.12.0, threads: 1
+Image: 481 x 321
+Segmentation method: abstraction
+Region colors: abstraction/region image
+Regions: 2763, edges: 6225, palette colors: 7
+Segmentation: 8212.634 ms (once; 0 if labels supplied)
+Recoloring median (7 runs): 7.543 ms
+  Label normalization: 1.610 ms
+  Region graph:     4.123 ms
+  Histogram:        0.401 ms
+  Widest-path tree: 0.547 ms
+  Color assignment: 0.090 ms
+  Rendering:        0.407 ms
+Lightness fallbacks: 238
+Wall time (all repeats + load/save): 8293.945 ms
+Saved: results\examples\starfish_jpg/sunset.png
+Abstraction parameters: mask=160, gamma=1.000, threshold=3.000, seed-min-size=11, hops=10, growth=100.000, bins=64, background=580
+  CRGF: 2623.852 ms
+  Seeds: 5283.636 ms
+  Growth: 244.424 ms
+  Abstraction rendering: 60.446 ms
+
+Ocean palette, using saved labels and abstraction colors:
+OpenCV 4.12.0, threads: 1
+Image: 481 x 321
+Segmentation method: supplied labels
+Region colors: abstraction/region image
+Regions: 2763, edges: 6225, palette colors: 7
+Segmentation: 0.000 ms (once; 0 if labels supplied)
+Recoloring median (1 runs): 7.492 ms
+  Label normalization: 1.566 ms
+  Region graph:     4.238 ms
+  Histogram:        0.431 ms
+  Widest-path tree: 0.555 ms
+  Color assignment: 0.090 ms
+  Rendering:        0.429 ms
+Lightness fallbacks: 202
+Wall time (all repeats + load/save): 44.006 ms
+Saved: results\examples\starfish_jpg/ocean.png

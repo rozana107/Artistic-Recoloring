@@ -1,0 +1,25 @@
+Computing CRGF detail filter...
+Selecting and ordering seeds...
+627 candidate seeds; 604 selected. Growing regions...
+Building SLIC background and rendering...
+OpenCV 4.12.0, threads: 1
+Image: 481 x 321
+Segmentation method: abstraction
+Region colors: abstraction/region image
+Regions: 1451, edges: 3269, palette colors: 7
+Segmentation: 9254.413 ms (once; 0 if labels supplied)
+Recoloring median (1 runs): 5.330 ms
+  Label normalization: 1.604 ms
+  Region graph:     2.733 ms
+  Histogram:        0.194 ms
+  Widest-path tree: 0.280 ms
+  Color assignment: 0.050 ms
+  Rendering:        0.410 ms
+Lightness fallbacks: 171
+Wall time (all repeats + load/save): 9284.079 ms
+Saved validation output matched images/124084_jpg/sunset.png; duplicate validation files removed during cleanup.
+Abstraction parameters: mask=160, gamma=1.000, threshold=3.000, seed-min-size=11, hops=10, growth=100.000, bins=64, background=580
+  CRGF: 3279.109 ms
+  Seeds: 5577.751 ms
+  Growth: 313.602 ms
+  Abstraction rendering: 83.653 ms

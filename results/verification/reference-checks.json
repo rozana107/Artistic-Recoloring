@@ -1,0 +1,44 @@
+[
+  {
+    "image": "124084_jpg",
+    "width": 481,
+    "height": 321,
+    "label_different_pixels": 0,
+    "abstraction_different_pixels": 0
+  },
+  {
+    "image": "cabbage1024_jpg",
+    "width": 1024,
+    "height": 768,
+    "label_different_pixels": 0,
+    "abstraction_different_pixels": 0
+  },
+  {
+    "image": "landscape_jpg",
+    "width": 640,
+    "height": 426,
+    "label_different_pixels": 0,
+    "abstraction_different_pixels": 0
+  },
+  {
+    "image": "orzan_jpg",
+    "width": 1024,
+    "height": 766,
+    "label_different_pixels": 0,
+    "abstraction_different_pixels": 0
+  },
+  {
+    "image": "parrots_jpg",
+    "width": 1024,
+    "height": 640,
+    "label_different_pixels": 0,
+    "abstraction_different_pixels": 0
+  },
+  {
+    "image": "WuZhen_jpg",
+    "width": 800,
+    "height": 600,
+    "label_different_pixels": 0,
+    "abstraction_different_pixels": 0
+  }
+]

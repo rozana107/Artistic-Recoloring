@@ -1,0 +1,8 @@
+// Dark purple, violet, pink, orange, peach, cream
+#241332
+#563474
+#9B63C4
+#E83F6F
+#FF795C
+#FFB47D
+#FFE1A8
